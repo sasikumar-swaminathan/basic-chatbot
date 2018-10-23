@@ -1,0 +1,98 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	font-size:16px;
+	margin:0px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+}
+
+nav a {
+	text-transform: uppercase;
+	color:white;
+	padding:20px;
+	margin:20px;
+	font-size: 24px;
+}
+
+nav a:hover{
+	color: red;
+}
+
+.robot-interface{
+	text-align: center;
+	height:100vh;
+
+}
+
+
+img{
+	margin-bottom: 40px;
+}
+h1{
+	font-size:46px;
+	font-weight: lighter;
+}
+
+input, button {
+	padding:20px;
+	font-size:16px;
+	display: block;
+	width: 100%;
+	box-sizing: content-box;
+	text-align: center;	
+	margin:10px 0px;
+	border:1px solid grey;
+	color:black;
+
+}
+
+button{
+	cursor:pointer;
+}
+
+button:hover{
+	color:white;
+	background: black;
+}
+
+.dashboard{
+	display: flex;
+ 	text-align: left;
+	justify-content: space-around;
+	width:60%;
+	margin:0 auto;
+	box-shadow: 0px 0px 26px 5px rgba(0,0,0,0.75);
+
+
+}
+
+.dashboard div{
+	align-self: center;
+	
+}
+
+ul{
+	list-style: none;
+
+}
+
+ ul li{
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 
+ }
+
+li::before {
+	content: "\2022"; 
+	color: green;
+	margin-right: 10px;
+	font-size:60px;
+	vertical-align: middle;
+}
+
+

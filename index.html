@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Robot</title>
+	<link rel="stylesheet" href="./css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<a href="index.html">Awesome-o</a>
+		<a href="./routes/barbara.html">Barbara Streissand Robot</a>
+		<a href="./routes/cat.html">Cat Robot</a>
+	</nav>
+
+	<section class="robot-interface">
+		<h1>Hello there, <br> I am Awesome-o!</h1>
+		<div>
+			
+			<img id="robot" src="./img/awesome-robot.jpeg">
+			<div class="dashboard">
+				<ul>
+					<li>On/Off</li>
+					<li>Speaking capabilities</li>
+					<li>Rockets</li>
+				</ul>
+				<div>
+					<input id="robot-text" type="text" placeholder="Type here">
+					<button id="talk-button">Talk!</button>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!-- library to speak -->
+<script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+
+<script src="./js/custom.js"></script>
+	
+</body>
+</html>
